@@ -102,23 +102,29 @@ header ul > li {
     padding: 4px 32px;
 }
 
-/*Utilities*/
-.blue{
-    background-color: blue;
-}
-.yellow{
-    background-color: yellow;
-}
-.purple{
-    background-color: purple;
-}
-.green{
-    background-color: green;
-}
-
 /*Prova*/
 .try{
     padding: 60px 0;
-    display: flex;
-    justify-content: space-between;
+    width: 320px;
+}
+.try p{
+    font-size: 20px;
+    word-spacing: 3px;
+}
+
+/*Utilities*/
+.bblue{
+    background-color: blue;
+}
+.byellow{
+    background-color: yellow;
+}
+.bpurple{
+    background-color: purple;
+}
+.bgreen{
+    background-color: green;
+}
+.red{
+    color:red;
 }
