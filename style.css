@@ -70,12 +70,12 @@ header ul > li::before{
 .ia a {
     text-decoration: none;
     color: #f9423a;
-    padding: 0 4px;
+    padding: 0 8px;
 }
 .plus{
-    border: 1px solid;
+    border: 2px solid;
     border-radius: 4px;
-    padding: 0 3px;
+    padding: 0 2px;
     color: #f9423a;
 }
 /*Search*/
@@ -160,16 +160,18 @@ header ul > li::before{
     position: relative;
 }
 .bta{
-    width: 200px;
-    height: 30px;
+    width: 250px;
+    height: 40px;
     background-color: #f9423a;
     color: white;
     border-style: none;
     border-radius: 4px;
     text-align: center;
+    font-size: 14px;
+    padding: 11px 0;
     position: absolute;
-    top: 80%;
-    left: 20%;
+    top: 75%;
+    left: 10%;
 }
 /*Utilities*/
 .bblue{
