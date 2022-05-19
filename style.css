@@ -84,21 +84,26 @@ header ul > li::before{
     margin-top: 72px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #dfe3ed;
     border-style: groove;
 }
 .search input{
-    width: 100%;
+    width: 150%;
     height: 40px;
     border-radius: 4px;
     border-style: none;
 }
 .glass button{
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 50px;
     background-color: #f9423a;
+    border-style: none;
+    border-radius: 4px;
 }
-
+.glass button > img{
+    height: 26px;
+}
 /*4 Box*/
 .txt{
     padding: 40px 0;
@@ -123,6 +128,7 @@ header ul > li::before{
     border: 1px solid white;
     border-radius: 4px;
     padding: 4px 32px;
+    color: white
 }
 
 /*Prova*/
@@ -139,7 +145,7 @@ header ul > li::before{
     word-spacing: 3px;
 }
 .try img{
-    height: 300px;
+    height: 260px;
     background-color: #f7f8fb;
 }
 
