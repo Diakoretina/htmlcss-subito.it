@@ -75,8 +75,9 @@ header ul > li::before{
 .plus{
     border: 2px solid;
     border-radius: 4px;
-    padding: 0 2px;
+    padding: 0 4px;
     color: #f9423a;
+    text-align: center;
 }
 /*Search*/
 .bar{
@@ -122,7 +123,7 @@ header ul > li::before{
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-    padding: 16px 0;
+    padding: 24px 0;
 }
 .box a{
     border: 1px solid white;
@@ -173,6 +174,49 @@ header ul > li::before{
     top: 75%;
     left: 10%;
 }
+/*Guadagno*/
+.forth{
+    display: flex;
+    justify-content: space-around;
+    max-height: 200px;
+}
+.ann img{
+    height: 200px;
+}
+.gua{
+    font-size: 20px;
+    word-spacing: 3px;
+    margin-right: 200px; 
+    padding: 50px 0;
+}
+.gua p{
+    font-size: 18px;
+    padding-top: 10px;
+    color: #99a3af;
+}
+.iaa{
+    margin: 90px 40px;
+    padding: 8px;
+    display: flex;
+    background-color: #feeceb;
+    height: 40px;
+    border: 0;
+    align-items: center;
+    border-radius: 4px;
+}
+.iaa a{
+    text-decoration: none;
+    text-align: center;
+    color: #f9423a;
+    padding: 0 40px;
+    font-size: 12px;
+}
+/*Second hand*/
+.tryc img{
+    height: 450px;
+    padding: 60px 0;
+    margin-right: 90px;
+}
 /*Utilities*/
 .bblue{
     background-color: #2650ff;
@@ -188,4 +232,9 @@ header ul > li::before{
 }
 .red{
     color:red;
+}
+.bord{
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #eceef4;
 }
