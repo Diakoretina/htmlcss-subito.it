@@ -135,18 +135,25 @@ header ul > li::before{
 /*Prova*/
 .third{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .try{
     padding: 60px 0;
-    width: 320px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .try p{
     font-size: 20px;
     word-spacing: 3px;
+    color: #99a3af;
+}
+.try a{
+    text-decoration: none;
 }
 .try img{
-    height: 260px;
+    height: 220px;
     background-color: #f7f8fb;
 }
 
