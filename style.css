@@ -110,6 +110,10 @@ header ul > li:not(:first-child)::before{
     border: 1px solid;
     border-color: #3c4858;
 }
+.search h4{
+    text-align: left;
+    padding-bottom: 8px;
+}
 .glass button{
     width: 70px;
     height: 50px;
@@ -199,10 +203,8 @@ header ul > li:not(:first-child)::before{
     height: 200px;
 }
 .gua{
-    font-size: 20px;
-    word-spacing: 3px;
-    margin-right: 200px; 
-    padding: 50px 0;
+    padding: 70px 0;
+    font-size: 16px;
 }
 .gua p{
     font-size: 18px;
@@ -217,6 +219,7 @@ header ul > li:not(:first-child)::before{
     height: 40px;
     border: 0;
     align-items: center;
+    justify-content: center;
     border-radius: 4px;
 }
 .iaa a{
@@ -227,10 +230,48 @@ header ul > li:not(:first-child)::before{
     font-size: 12px;
 }
 /*Second hand*/
+.fifth{
+    display: flex;
+}
 .tryc img{
     height: 450px;
     padding: 60px 0;
-    margin-right: 90px;
+    margin-right: 20px;
+}
+/*Security*/
+.sixth{
+    display: flex;
+    background-color: #f7f8fb;
+}
+.sixth h3{
+    align-items: flex-start;
+}
+.ann2{
+    display: flex;
+}
+.ann2 img{
+    background-color: white;
+    height: 200px;
+    border: 0;
+    border-radius: 4px;
+}
+/*App*/
+.seventh{
+    display: flex;
+    background-color: #f7f8fb;
+    margin: 50px 0;
+}
+/*Di più*/
+.eigth{
+    display: flex;
+    flex-direction: column;
+}
+.eigth h3{
+    margin-bottom: 16px;
+}
+.lk a{
+    text-decoration: none;
+    color: #99a3af;
 }
 /*Utilities*/
 .bblue{
@@ -247,6 +288,18 @@ header ul > li:not(:first-child)::before{
 }
 .red{
     color:red;
+}
+.blue{
+    color:#2650ff;
+}
+.yellow{
+    color:#f2a700;
+}
+.purple{
+    color:#9924ff;
+}
+.green{
+    color:#07bb9c;
 }
 .bord{
     border-radius: 4px;
